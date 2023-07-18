@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Seating Arrangement</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1><u>Seating Arrangement</u></h1>
+    <div class="input-output">
+      <div class="input1">
+        <label class='lbl'>Enter the seating arrangement:</label><br><br>
+        <textarea id="seatingArrangement"></textarea><br><br>
+      </div>
+      <div class="input2"> <label class='lbl'>Number of Friends:</label><br><br>
+        <input type="number" id="numOfFriends" min="1"><br><br>
+      </div >
+      <div class="output"><center><button onclick="calculateAvailableSeatingOptions()">Calculate</button>
+        <div id="outputCount"></div></center> 
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
